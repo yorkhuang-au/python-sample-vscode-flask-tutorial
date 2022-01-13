@@ -8,9 +8,12 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
+
+container: amazon/aws-glue-libs:glue_libs_3.0.0_image_01
+
 steps:
-  - script: 'docker'
-  - script: 'aws'
+  - script: 'ls -la'
+  
 # strategy:
 #   matrix:
 #     Python27:
