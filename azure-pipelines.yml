@@ -13,6 +13,7 @@ container: amazon/aws-glue-libs:glue_libs_3.0.0_image_01
 
 steps:
   - script: 'ls -la'
+  - script: 'spark-submit --help'
   
 # strategy:
 #   matrix:
