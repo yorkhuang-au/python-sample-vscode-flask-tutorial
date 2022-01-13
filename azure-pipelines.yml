@@ -9,9 +9,7 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 steps:
-  - task: Bash@3
-    inputs:
-      script: 'echo Hello world'
+  - script: 'echo Hello world'
 # strategy:
 #   matrix:
 #     Python27:
