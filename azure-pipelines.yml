@@ -19,7 +19,7 @@ steps:
       awsSubCommand: 'ls'
       awsArguments: ' s3://york1-aws-scripts/'
       regionName: 'ap-southeast-2'
-      awsCredentials: 'york1aws'
+      awsCredentials: 'york2aws'
       
   # - script: 'AWS_ACCESS_KEY_ID=AKIAYVTDMWC7NHKXAG6Y AWS_SECRET_ACCESS_KEY=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 aws s3 ls s3://york1-aws-scripts/'
   # - script: 'docker run --rm amazon/aws-glue-libs:glue_libs_3.0.0_image_01 "gluepysparksubmit --help"'
