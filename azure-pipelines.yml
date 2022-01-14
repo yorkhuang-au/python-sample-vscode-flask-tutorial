@@ -9,11 +9,12 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
-container: amazon/aws-glue-libs:glue_libs_3.0.0_image_01
+# container: amazon/aws-glue-libs:glue_libs_3.0.0_image_01
 
 steps:
   - script: 'ls -la'
-  - script: 'spark-submit --help'
+  - script: 'docker  run --rm dnxsolutions/glue-libs "gluepysparksubmit --help"'
+  # - script: 'spark-submit --help'
   
 # strategy:
 #   matrix:
