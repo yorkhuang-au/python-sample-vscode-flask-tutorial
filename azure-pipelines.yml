@@ -17,6 +17,7 @@ steps:
     inputs:
       awsCommand: 's3'
       awsSubCommand: 'ls'
+      awsArguments: ' s3://york1-aws-scripts/'
       regionName: 'ap-southeast-2'
       awsCredentials: 'york1aws'
       
